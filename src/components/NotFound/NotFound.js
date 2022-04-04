@@ -1,8 +1,11 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 const NotFound = () => {
     return (
         <div>
-            <h1>NotFound</h1>
+            <Container>
+                <img className="img-fluid" src="https://i.stack.imgur.com/6M513.png"></img>
+            </Container>
         </div>
     )
 }

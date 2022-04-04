@@ -3,9 +3,13 @@ import './Home.css';
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import useReviews from "../../hooks/useReviews";
 import CustomerReview from "../CustomerReview/CustomerReview";
+import { Link, useNavigate } from "react-router-dom";
 const Home = () => {
     const [reviews, setReviews] = useReviews();
-    console.log(reviews)
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate('/reviews')
+    }
     return (
         <div>
             <Container className="mt-5 border">
@@ -29,7 +33,7 @@ const Home = () => {
                         reviews.map(review => <CustomerReview key={review.id} review={review}></CustomerReview>)
                     }
                 </Row>
-                <Button className="mt-3 w-50">See All Reviews</Button>
+                <Button onClick={handleClick} className="mt-3 w-50">See All Reviews</Button>
             </Container>
         </div>
     )
