@@ -2,8 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- Item 4
-- Itme 2
+- This is a book website.
+- Only three customers reviews are shown on the home page of the website.
+- The website has added two charts to the dashboard.
+- Two questions have been answered in blogs
 
 ## Available Scripts
 
