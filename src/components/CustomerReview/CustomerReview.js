@@ -2,13 +2,12 @@ import React from "react";
 import './CustomerReview.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faStar } from '@fortawesome/free-solid-svg-icons'
-import { Card, Col, Row } from "react-bootstrap";
+import { Card, Col } from "react-bootstrap";
 const CustomerReview = (props) => {
     const { name, review } = props.review;
     return (
         <Col>
             <Card>
-                {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                 <Card.Body className="text-start">
                     <div className="font-icon">
                         <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
@@ -18,7 +17,7 @@ const CustomerReview = (props) => {
                         <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
                     </div>
                     <Card.Title className="my-2">{name}</Card.Title>
-                    <Card.Text>{review}</Card.Text>
+                    <Card.Text title={review}>{review.length > 190 ? review.slice(0, 190) + '...' : review}</Card.Text>
                 </Card.Body>
             </Card>
         </Col>

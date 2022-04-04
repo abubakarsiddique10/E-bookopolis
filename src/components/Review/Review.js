@@ -17,7 +17,7 @@ const Review = (props) => {
                         <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
                     </div>
                     <Card.Title className="my-2">{name}</Card.Title>
-                    <Card.Text>{review}</Card.Text>
+                    <Card.Text title={review}>{review.length > 190 ? review.slice(0, 190) + '...' : review}</Card.Text>
                 </Card.Body>
             </Card>
         </Col>
