@@ -1,11 +1,11 @@
 # E-Bookopolis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [E-Bookopolis](https://e-bookopolis.netlify.app/).
 
 - This is a book website.
-- Only three customers reviews are shown on the home page of the website.
 - The website has added two charts to the dashboard.
-- Two questions have been answered in blogs
+- Two questions have been answered in blogs.
+- Only three customers reviews are shown on the home page of the website.
 
 ## Available Scripts
 
