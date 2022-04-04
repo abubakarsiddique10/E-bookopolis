@@ -1,0 +1,38 @@
+[
+    {
+        "id": "624a84f969e4d0f49a7fdead",
+        "balance": "$1,367.59",
+        "picture": "http://placehold.it/32x32",
+        "name": "Jenny Oliver"
+    },
+    {
+        "id": "624a84f9b24bb74a52c952e9",
+        "balance": "$1,093.54",
+        "picture": "http://placehold.it/32x32",
+        "name": "Agnes Gomez"
+    },
+    {
+        "id": "624a84f9396e739a05e2185f",
+        "balance": "$3,150.68",
+        "picture": "http://placehold.it/32x32",
+        "name": "Rowland Wilcox"
+    },
+    {
+        "id": "624a84f9c7f3a87453333abe",
+        "balance": "$1,488.43",
+        "picture": "http://placehold.it/32x32",
+        "name": "Louella Barnett"
+    },
+    {
+        "id": "624a84f9aa4800400de8c789",
+        "balance": "$3,133.69",
+        "picture": "http://placehold.it/32x32",
+        "name": "Gonzales Carrillo"
+    },
+    {
+        "id": "624a84f9dbbd1eafc159a0f2",
+        "balance": "$1,529.57",
+        "picture": "http://placehold.it/32x32",
+        "name": "Lolita Munoz"
+    }
+]
